@@ -18,7 +18,9 @@ module.exports = {
                 .required(),
             lname: Joi.string()
                 .required(),
-            email: Joi.email()
+            email: Joi.string()
+                .required(),
+            password: Joi.string()
                 .required()
         })
 

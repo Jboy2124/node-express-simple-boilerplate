@@ -9,6 +9,7 @@ module.exports = router
 
     //for users-module 
     .post('/users', Users.post)
+    .post('/register', Users.post)
 
 
     //for other-module
